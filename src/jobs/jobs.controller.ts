@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { PrismaService } from '../prisma/prisma.service';
+import { PrismaService } from '../../prisma/prisma.service';
 
 @Controller('jobs')
 export class JobsController {
