@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // ✅ ADD THIS LINE
  app.enableCors({
-  origin: 'http://localhost:3000',
+  origin: 'https://jobboard-frontend-o1lc.onrender.com/',
 });
 
   await app.listen(3001);
