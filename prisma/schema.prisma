@@ -1,6 +1,6 @@
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://cyberminds_database_user:@dpg-d1mdq815pdvs73csk04g-a:5432/cyberminds_database"
+  url      = "postgresql://cyberminds_database_user:A61ttey73hYc0dtAkjDBnprvkW97zrIn@dpg-d1mdq815pdvs73csk04g-a/cyberminds_database"
 }
 
 generator client {
