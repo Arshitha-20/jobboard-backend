@@ -1,0 +1,20 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://appuser:apppassword@localhost:5432/cyberminds"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model jobs {
+  id          Int       @id @default(autoincrement())
+  title       String
+  company     String
+  location    String?
+  job_type    String?
+  salary_min  Int?
+  salary_max  Int?
+  deadline    DateTime?
+  description String?
+}
