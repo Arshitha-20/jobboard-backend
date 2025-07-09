@@ -4,9 +4,9 @@ CREATE TABLE "jobs" (
     "title" TEXT NOT NULL,
     "company" TEXT NOT NULL,
     "location" TEXT,
-    "jobType" TEXT,
-    "salaryMin" INTEGER,
-    "salaryMax" INTEGER,
+    "job_type" TEXT,
+    "salary_min" INTEGER,
+    "salary_max" INTEGER,
     "deadline" TIMESTAMP(3),
     "description" TEXT,
 
