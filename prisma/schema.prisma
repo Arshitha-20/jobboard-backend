@@ -12,7 +12,7 @@ model jobs {
   title       String
   company     String
   location    String?
-  job_type    String?
+  jobType    String?
   salary_min  Int?
   salary_max  Int?
   deadline    DateTime?
