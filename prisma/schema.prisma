@@ -12,10 +12,11 @@ model jobs {
   title       String
   company     String
   location    String?
-  jobType     String?  
-  salaryMin   Int?     
-  salaryMax   Int?      
+  jobType     String?   @map("job_type")
+  salaryMin   Int?      @map("salary_min")
+  salaryMax   Int?      @map("salary_max")
   deadline    DateTime?
   description String?
 }
+
 
