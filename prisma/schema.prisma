@@ -12,9 +12,10 @@ model jobs {
   title       String
   company     String
   location    String?
-  jobType    String?
-  salary_min  Int?
-  salary_max  Int?
-  deadline    DateTime?
+  jobType     String?  
+  salaryMin   Int?     
+  salaryMax   Int?      
+  deadline    Date?
   description String?
 }
+
