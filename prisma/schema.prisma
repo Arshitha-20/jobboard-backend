@@ -15,7 +15,7 @@ model jobs {
   jobType     String?  
   salaryMin   Int?     
   salaryMax   Int?      
-  deadline    Date?
+  deadline    DateTime?
   description String?
 }
 
