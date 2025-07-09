@@ -20,7 +20,7 @@ export class JobsController {
         jobType: data.jobType,
        salaryMin: data.salaryMin,
         salaryMax: data.salaryMax,
-        deadline: data.deadline ? new Date(data.deadline).toISOString() : null
+        deadline: data.deadline ? new Date(data.deadline).toISOString() : null,
         description: data.description,
       },
     });
